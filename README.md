@@ -5,7 +5,7 @@
 My DIY Landing Page with these features.
 
 - My content. My design.
-- Customizable, and persistent URL e.g. `YourCustomName.Netlify.app`
+- Customizable, and persistent URL e.g. `https://diy-landing-page-kyeager.netlify.app/`
 - Portable. Take it to any web host.
 - Future proof, and easy to maintain. You own the code via GitHub
 - Secure, and scalable to many CDNs worldwide via Netlify
@@ -14,7 +14,8 @@ My DIY Landing Page with these features.
 
 - [How to Center with CSS](https://coryrylan.com/blog/how-to-center-in-css-with-css-grid)
 - [Content Editable](https://css-tricks.com/the-browser-can-remember-edited-content/)
-- [Sharpie font via Font Share](https://www.fontshare.com/fonts/sharpie)
+- [Chillax font via Font Share](https://www.fontshare.com/fonts/chillax)
+- [Layout inspired by Mickey Li](https://codepen.io/tmac/pen/bqJpPy)]
 
 ## Why Does This Exist?
 

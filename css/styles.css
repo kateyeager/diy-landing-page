@@ -1,33 +1,183 @@
-
 /* My Styles */
+/* Layout inspired by Mickey Li https://codepen.io/tmac/pen/bqJpPy */
 
 body {
+    padding: 0;
+    overflow-x: hidden;
     font-family: 'Chillax', sans-serif;
-    margin-left: 20vw;
-    margin-right: 20vw;
-   
+   height: 100vh;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
 }
 
-img {
-    min-width: 20%;
-    max-width: 40%;
-   padding: 1.25%;
+
+
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+  
+  .landing-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  h1, h2, h5 {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  span.line {
+    position: absolute;
+    width: 300px;
+    height: calc(100vw + 300px);
+    transform: skew(135deg) translateX(-300px);
+    transform-origin: bottom left;
+    z-index: -1;
+  }
+  
+  .profile-pic {
+    padding: 2px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    /* border: .4vw solid #000000; */
-   object-position: center;
-    margin: 2%;
-}
+    border: 2.5px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+  }
+  
+  .line1 {
+    top: 50px;
+    background-color: #eeeeee;
+  }
+  
+  .line2 {
+    top: 120px;
+    background-color: #dadada;
+    
+  }
+  
+  .line3 {
+    top: 160px;
+    background-color: #c9c9c9;
+    
+  }
+  
+  .line4 { top: 240px;
+    background-color: #dadada;
+  }
+  
+  .about-page {
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+    background-image: linear-gradient(hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0.6))
+  }
+
+
 
 p {
-    width: 50%;
+
     line-height: 3.38vh;
     font-style: 300;
 
 }
 
-a {
-   text-decoration: none;
+nav{
+   justify-content: space-between;
 }
+
+.links {
+    display: flex;
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+    background-image: linear-gradient(hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0.6))
+}
+
+.check-it-out{
+    text-align: center;
+    align-items: center;
+    
+  }
+  
+  a.check-me-out{
+  width: 114px;
+  height: 36px;
+    border: 1.5px solid #E85F5C;
+  box-sizing: border-box;
+
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #E85F5C;
+  text-decoration: none;
+  
+  }
+  
+  a.check-me-out:hover{
+   
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  background: #F28E85;
+    border: #F28E85 solid 1.5px; 
+  }
+  
+  a.check-me-out:active{
+
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  background: #F28E85;
+    border: #F28E85 solid; 
+  }
+  
+  a.check-me-out:focus{
+
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  background: #E85F5C;
+    border: #E85F5C solid 1.5px;
+  }

@@ -1,1 +1,33 @@
+
 /* My Styles */
+
+body {
+    font-family: 'Chillax', sans-serif;
+    margin-left: 20vw;
+    margin-right: 20vw;
+   
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    min-width: 20%;
+    max-width: 40%;
+   padding: 1.25%;
+    border-radius: 50%;
+    /* border: .4vw solid #000000; */
+   object-position: center;
+    margin: 2%;
+}
+
+p {
+    width: 50%;
+    line-height: 3.38vh;
+    font-style: 300;
+
+}
+
+a {
+   text-decoration: none;
+}

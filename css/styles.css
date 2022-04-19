@@ -104,7 +104,7 @@ nav{
     background-image: linear-gradient(hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0.6))
 }
 
-.check-it-out{
+.check-me-out{
     text-align: center;
     align-items: center;
     
@@ -181,3 +181,5 @@ nav{
   background: #E85F5C;
     border: #E85F5C solid 1.5px;
   }
+
+ 

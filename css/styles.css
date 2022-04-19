@@ -30,6 +30,8 @@ html {
     align-items: center;
     justify-content: space-around;
   }
+
+  
   
   h1, h2, h5 {
     margin: 0;
@@ -43,6 +45,10 @@ html {
     transform: skew(135deg) translateX(-300px);
     transform-origin: bottom left;
     z-index: -1;
+  }
+
+  .logo{
+    max-width: 25%;
   }
   
   .profile-pic {
@@ -75,6 +81,8 @@ html {
   .line4 { top: 240px;
     background-color: #F2D3D0;
   }
+
+
   
   .about-page {
     max-width: 1024px;

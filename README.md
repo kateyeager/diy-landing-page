@@ -15,7 +15,7 @@ My DIY Landing Page with these features.
 - [How to Center with CSS](https://coryrylan.com/blog/how-to-center-in-css-with-css-grid)
 - [Content Editable](https://css-tricks.com/the-browser-can-remember-edited-content/)
 - [Chillax font via Font Share](https://www.fontshare.com/fonts/chillax)
-- [Layout inspired by Mickey Li](https://codepen.io/tmac/pen/bqJpPy)
+- [Animated background gradient by Manuel Pinto](https://codepen.io/P1N2O/pen/pyBNzX)
 
 ## Why Does This Exist?
 

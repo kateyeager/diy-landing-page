@@ -5,7 +5,7 @@ body {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
   font-family: "Chillax", sans-serif;
 }
 
@@ -21,36 +21,23 @@ body {
   }
 }
 
-html {
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
 .landing-page {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 .profile-pic {
   padding: 0;
   margin: 20px;
-  max-height: 150px;
-  max-width: 150px;
-  border-radius: 50%;
-  filter: grayscale(100%);
-  border: #ffffff solid 1px;
+  margin-bottom: 0;
+  max-height: 130px;
+  max-width: 130px;
   z-index: 10;
 }
 
 .profile-pic:hover {
-  filter: grayscale(0%);
   transform: scaleX(-1);
 }
 
@@ -62,20 +49,14 @@ h4 {
 
 h5 {
   margin: 0;
-  /* font-weight: normal; */
-  font-size: 2.5rem;
-  line-height: 3.38vh;
+  font-size: 0.789rem;
   text-align: center;
 }
 
 .about-page {
-  /* max-width: 1024px; */
+  max-width: 1024px;
   margin: auto;
-  padding: 30px;
-  /* background-image: linear-gradient(
-    hsla(0, 0%, 100%, 0.6),
-    hsla(0, 0%, 100%, 0.6)
-  ); */
+  padding: 0 30px;
 }
 
 p {
@@ -99,11 +80,10 @@ p {
 
 a.check-me-out {
   min-width: 100%;
-  min-height: 36px;
+  min-height: 46px;
   background-color: #ffffff;
   border: 1.75px solid #e85f5c;
   box-sizing: border-box;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 23px;

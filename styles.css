@@ -25,32 +25,58 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-direction: row;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  line-height: 0.789;
+  /* add visual interest glow effect */
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff,
+    0 0 40px #ee7752, 0 0 70px #ee7752, 0 0 80px #ee7752, 0 0 100px #ee7752,
+    0 0 150px #ee7752;
+}
+
+
+
+h4 {
+  /* margin: 0; */
+  margin-top: 18px;
+  font-weight: 3  00;
+  text-align: center;
+  padding: 0 0 10px 0;
 }
 
 .profile-pic {
-  padding: 0;
-  margin: 20px;
-  margin-bottom: 0;
-  max-height: 130px;
-  max-width: 130px;
-  z-index: 10;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-radius: 50%;
+/* add visual interest glow effect */
+  box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff,
+    0 0 40px #ee7752, 0 0 70px #ee7752, 0 0 80px #ee7752, 0 0 100px #ee7752,
+    0 0 150px #ee7752;
+    max-height: 100px;
+    max-width: 100px;
+    z-index: 10;
+
+  filter: grayscale(100%);
 }
 
 .profile-pic:hover {
+  animation: glow 2s ease-in-out infinite;
   transform: scaleX(-1);
-}
-
-h4 {
-  margin: 0;
-  font-weight: 600;
-  text-align: center;
+  filter: grayscale(0%);
 }
 
 h5 {
   margin: 0;
   font-size: 0.789rem;
   text-align: center;
+  /* add cute text animation effect*/
+  animation: text 2s ease-in-out infinite;
 }
 
 .about-page {

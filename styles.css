@@ -39,6 +39,7 @@ h1 {
   /* add visual interest glow effect */
   text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff,
     0 0 40px #ee7752, 0 0 70px #ee7752, 0 0 80px #ee7752, 0 0 100px #ee7752;
+    padding: 0 30px;
 }
 
 .subtitle {

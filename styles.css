@@ -1,27 +1,11 @@
 /* My Styles */
 
-:root {
-  color-scheme: light #fff;
-}
+@import url("https://fonts.googleapis.com/css2?family=Chillax&display=swap");
 
 body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  background-color: #0d1151;
   height: 100vh;
   font-family: "Chillax", sans-serif;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 .landing-page {
@@ -31,23 +15,22 @@ body {
   flex-direction: column;
 }
 
-
 h1 {
   font-size: 3.5rem;
-  font-weight: 600;
+  line-height: 2.7rem;
+  font-weight: 400;
   color: #ffffff;
   text-align: center;
   /* add visual interest glow effect */
   text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff,
     0 0 40px #ee7752, 0 0 70px #ee7752, 0 0 80px #ee7752, 0 0 100px #ee7752;
-    padding: 0 30px;
+  padding: 0 30px;
 }
 
-.subtitle {
-  display: none;
+.space {
   font-weight: 600;
   text-align: center;
-  color: #000000;
+  color: #ffffff00;
   padding: 0 0 26px 0;
   font-size: 1rem;
   line-height: 0;
@@ -74,7 +57,7 @@ h1 {
 
 .profile-pic:hover {
   animation: glow 2s ease-in-out infinite;
-  transform: scaleX(-1);
+
   filter: grayscale(0%);
 }
 
@@ -85,23 +68,16 @@ h1 {
 }
 
 h2 {
-  /* underline text decoration */
-  text-decoration: underline #ffffff07 3px;
-  text-underline-offset: 0.23rem;
-  margin-bottom: 0;
-  font-size: 1.5rem;
-  font-weight: 200;
   color: #ffffff;
-  text-align: justify;
-  /* add visual interest glow effect */
-  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff,
-    0 0 40px #ee7752, 0 0 70px #ee7752, 0 0 80px #ee7752, 0 0 100px #ee7752;
+  text-align: center;
+  padding: auto;
 }
 
 p {
   line-height: 3.38vh;
   font-style: 300;
-  font-size: 0.9rem;
+  font-size: 0.789rem;
+  color: #ffffff;
 }
 
 .links {
